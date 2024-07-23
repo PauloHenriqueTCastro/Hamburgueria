@@ -1,0 +1,16 @@
+.ulProdutos {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: row;
+  gap: 20px;
+  width: max-content;
+  margin-left: 16px;
+  width: 95%;
+}
+@media (min-width: 1400px) {
+  .ulProdutos {
+    overflow: unset;
+    width: 960px;
+    flex-wrap: wrap;
+  }
+}

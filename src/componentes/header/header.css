@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  height: 139px;
+  background-color: var(--Grey-0);
+  gap: 19px;
+}
+@media (min-width: 1400px) {
+  header {
+    flex-direction: row;
+    gap: 56%;
+    height: 80px;
+  }
+}

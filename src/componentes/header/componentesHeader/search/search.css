@@ -1,0 +1,33 @@
+.conteinreSearch {
+  display: flex;
+  background-color: var(--White);
+  border: 2px solid var(--Grey-20);
+  width: 90%;
+  max-width: 365px;
+  height: 55px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.conteinreSearch > input {
+  background-color: transparent;
+  border: solid transparent;
+  width: 55%;
+  margin: 0;
+  padding: 0;
+}
+.conteinreSearch > button {
+  border: solid transparent;
+  background-color: var(--Color-primary);
+  border-radius: 8px;
+  color: var(--White);
+  height: 70%;
+  width: 100px;
+}

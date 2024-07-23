@@ -1,0 +1,88 @@
+.Cart {
+  margin-top: 20px;
+  width: 90%;
+  min-height: 223px;
+  background-color: var(--Grey-0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.ulMaeCart {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+.headerCart {
+  background-color: var(--Color-primary);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  border-radius: 8px 8px 0 0;
+  position: absolute;
+  top: 0%;
+}
+.headerCart > p {
+  color: var(--White);
+  margin-left: 21px;
+}
+.Cart > p {
+  font-size: var(--Heading3);
+  font-weight: 700;
+}
+.Cart > span {
+  font-size: var(--Heading4);
+  color: var(--Grey-50);
+}
+.linhaSpan {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  width: 90%;
+  height: 2px;
+  background-color: var(--Grey-20);
+}
+.conteinerVtotal {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.conteinerVtotal > span {
+  font-weight: 600;
+  font-size: var(--Headline);
+}
+.conteinerVtotal > p {
+  font-weight: 600;
+  font-size: var(--Headline);
+  color: var(--Grey-50);
+}
+.btnRemoverTudoCarrinho {
+  width: 92%;
+  background-color: var(--Grey-20);
+  height: 60px;
+  border-radius: 8px;
+  border: solid transparent;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: var(--Headline);
+  font-weight: 600;
+  color: var(--Grey-50);
+}
+@media (min-width: 1400px) {
+  .Cart {
+    width: 365px;
+    height: max-content;
+    margin-top: 0;
+  }
+  .ulMaeCart {
+    margin-top: 80px;
+  }
+}
